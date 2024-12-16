@@ -45,7 +45,7 @@ const AddProduct = () => {
         alert("Authentication failed or Firm ID not found");
         return;
       }
-      if (!productName || !price || !category.length || !image) {
+      if (!productName || !price || !category.length ) {
         alert("Please fill all the required fields");
         return;
       }
